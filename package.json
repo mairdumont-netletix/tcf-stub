@@ -1,0 +1,27 @@
+{
+  "name": "@mdnx/tcf-stub",
+  "version": "0.1.0",
+  "description": "IAB's Transparency & Consent Framework CMP Stub in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denny Bartelt <d.bartelt@mairdumont-netletix.com>",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/mairdumont-netletix/tcf-stub"
+  },
+  "bugs": {
+    "url": "https://github.com/mairdumont-netletix/tcf-stub/issues"
+  },
+  "homepage": "https://github.com/mairdumont-netletix/tcf-stub#readme",
+  "devDependencies": {
+    "@mdnx/tcf-types": "1.0.0",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.3"
+  }
+}
